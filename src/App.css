@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.leaflet-container{
+  width: 80vw;
+  height: 60vh;
+}
+.suggestion {
+  cursor: pointer;
+  background-color: lightgray;
+}
+.suggestion.hover{
+background-color: black;
+}
+
+.col-2 {
+  max-height: 63vh;
+  overflow-y: auto;
+}
+.sr-only {
+  display: none;
+}
